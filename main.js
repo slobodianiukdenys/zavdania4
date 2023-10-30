@@ -16,10 +16,10 @@ let arr1 = undefined;
     let i = startNumber;
     let j = 0;
 
-    do{
-		arr1[j] = +i;
+do{
+	arr1[j] = +i;
         i++;
-		j++;
-	}while (j < arrayLength);
+	j++;
+}while (j < arrayLength);
 
     console.table(arr1)
